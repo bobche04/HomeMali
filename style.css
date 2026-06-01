@@ -266,3 +266,44 @@ footer {
   border-radius: 10px;
   font-size: 15px;
 }
+
+/* --- Responsive Design (Mobiles et Tablettes) --- */
+@media screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+  
+  nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .overlay {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+  }
+
+  .filters {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .details-container {
+    flex-direction: column;
+    padding: 15px;
+  }
+
+  .main-image {
+    height: 250px;
+  }
+
+  footer {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+}
